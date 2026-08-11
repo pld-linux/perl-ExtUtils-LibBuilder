@@ -4,7 +4,6 @@
 #
 %define		pdir	ExtUtils
 %define		pnam	LibBuilder
-%include	/usr/lib/rpm/macros.perl
 Summary:	ExtUtils::LibBuilder - a tool to build C libraries
 Summary(pl.UTF-8):	ExtUtils::LibBuilder - narzędzie do budowania bibliotek C
 Name:		perl-ExtUtils-LibBuilder
@@ -20,6 +19,7 @@ BuildRequires:	perl-ExtUtils-CBuilder >= 0.23
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
+BuildRequires:	rpmbuild(macros) >= 1.745
 %if %{with tests}
 BuildRequires:	perl-Test-Simple
 %endif
