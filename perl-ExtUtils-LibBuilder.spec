@@ -7,13 +7,13 @@
 Summary:	ExtUtils::LibBuilder - a tool to build C libraries
 Summary(pl.UTF-8):	ExtUtils::LibBuilder - narzędzie do budowania bibliotek C
 Name:		perl-ExtUtils-LibBuilder
-Version:	0.08
-Release:	2
+Version:	0.09
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/ExtUtils/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	8ffe9e9a3c2f916f40dc4f6aed237d33
+Source0:	https://www.cpan.org/modules/by-module/ExtUtils/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	16115f941df504f65b0f94b7f29e8fbc
 URL:		https://metacpan.org/release/ExtUtils-LibBuilder/
 BuildRequires:	perl-ExtUtils-CBuilder >= 0.23
 BuildRequires:	perl-Module-Build
